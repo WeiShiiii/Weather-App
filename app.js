@@ -1,6 +1,6 @@
 function getWeather() {
     const cityName = document.getElementById('cityInput').value.trim();
-    const apiKey = '330544151adf1edc7188f8295e5c1675'; // Use your newly regenerated API key here
+    const apiKey = '330544151adf1edc7188f8295e5c1675'; // my API from OpenWeather
     getForecast(cityName, apiKey);
     getCurrentWeather(cityName, apiKey);
 }
